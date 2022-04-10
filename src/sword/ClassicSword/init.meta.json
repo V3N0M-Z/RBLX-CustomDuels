@@ -1,0 +1,10 @@
+{
+  "className": "Tool",
+  "properties": {
+    "GripForward": [-1, 0, 0],
+    "GripPos": [0, 0, -1.5],
+    "GripRight": [0, 1, 0],
+    "GripUp": [0, 0, 1],
+    "TextureId": "rbxasset://Textures/Sword128.png"
+  }
+}

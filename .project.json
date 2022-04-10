@@ -1,0 +1,36 @@
+{
+	"name": "Custom Duels Effect Maker",
+	"tree": {
+
+		"$className": "DataModel",
+
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"$path": "src/shared"
+		},
+
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"$path": "src/server"
+		},
+
+		"StarterPlayer": {
+	      "$className": "StarterPlayer",
+
+	      "StarterPlayerScripts": {
+	        "$className": "StarterPlayerScripts",
+	        "$path": "src/client"
+	      }
+	    },
+
+	    "StarterPack": {
+	    	"$className": "StarterPack",
+	    	"$path": "src/sword"
+	    },
+
+	    "Workspace": {
+	    	"$className": "Workspace",
+	    	"$path": "src/workspace"
+	    }
+	}
+}
