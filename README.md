@@ -1,0 +1,1 @@
+This project was created for Custom Duels for the purposes of easily adding in new effects.
