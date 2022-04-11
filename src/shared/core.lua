@@ -154,8 +154,8 @@ function core:GetEffect(eff)
 	return self._effects:FindFirstChild(eff)
 end
 
-function core:PlaySound(audio, parent)
-	task.defer(function()
+function core:PlaySound(audio, parent, callback, ...)
+	task.defer(function(...)
 		audio = self:Get(audio)
 		audio.Parent = parent and parent or self.SoundService
 		if not audio.IsLoaded then
@@ -164,7 +164,10 @@ function core:PlaySound(audio, parent)
 		audio:Play()
 		audio.Ended:Wait()
 		audio:Destroy()
-	end)
+		if callback then
+			callback(...)
+		end			
+	end, ...)
 end
 
 function core:Cleanup(enemy)
