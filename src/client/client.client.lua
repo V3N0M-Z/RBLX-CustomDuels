@@ -1,4 +1,5 @@
 --Made by @V3N0M_Z
+--Ref: https://github.com/V3N0M-Z/RBLX-CustomDuels
 
 local core = require(game:GetService("ReplicatedStorage"):WaitForChild("core"))
 local comm = core.ReplicatedStorage:WaitForChild("comm")

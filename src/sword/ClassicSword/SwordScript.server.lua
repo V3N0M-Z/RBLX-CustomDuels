@@ -2,7 +2,7 @@
 --EUROCOW WAS HERE BECAUSE I MADE THE PARTICLES AND THEREFORE THIS ENTIRE SWORD PRETTY AND LOOK PRETTY WORDS AND I'D LIKE TO DEDICATE THIS TO MY FRIENDS AND HI LUCKYMAXER PLS FIX SFOTH SWORDS TY LOVE Y'ALl
 --Updated for R15 avatars by StarWars
 --Re-updated by TakeoHonorable
---Edited by V3N0M_Z for CD
+--Edited by V3N0M_Z for Custom Duels
 
 local comm = game:GetService("ReplicatedStorage"):WaitForChild("comm")
 
